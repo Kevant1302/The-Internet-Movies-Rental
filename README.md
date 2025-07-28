@@ -23,11 +23,11 @@ This portal allows users to view, add, edit, and delete movies, storing data sec
 
 ## Tech Stack
 
-- **Frontend:** Next.js, React  
-- **Backend:** Next.js API Routes  
-- **Database:** MongoDB (Atlas or Local)  
-- **ORM:** Prisma  
-- **Styling:** Tailwind CSS (or CSS modules)  
+- **Frontend:** Next.js, React
+- **Backend:** Next.js API Routes
+- **Database:** MongoDB
+- **ORM:** Prisma
+- **Styling:** Tailwind CSS (and CSS modules)
 
 ---
 
@@ -38,9 +38,10 @@ imr-movies/
  ├── components/
  │   ├── Navbar.js
  │   ├── Footer.js
- │   └── MovieCard.js
  ├── pages/
+ │   ├── _app.js
  │   ├── index.js
+ │   ├── movies.js
  │   ├── api/
  │   │   ├── movies/
  │   │   │   ├── index.js  (GET, POST)
@@ -58,29 +59,36 @@ imr-movies/
 ## Installation and Setup
 
 ### Prerequisites
-- Node.js (Latest LTS)
-- MongoDB (Atlas or local)
+
+- Node.js
+- MongoDB
 - Git
 
 ### Steps
+
 1. **Clone the repository**
+
    ```bash
    git clone <your_repo_url>
    cd imr-movies
    ```
 
 2. **Install dependencies**
+
    ```bash
    npm install
    ```
 
 3. **Configure environment variables**
-   - Create `.env` file  
+
+   - Create `.env` file
+
    ```env
    DATABASE_URL="your_mongodb_connection_string"
    ```
 
 4. **Setup Prisma**
+
    ```bash
    npx prisma db push
    ```
@@ -93,13 +101,8 @@ imr-movies/
 
 ---
 
-## Deployment
-- Deployed on **Vercel**  
-- Ensure `.env` variables are configured on Vercel before deployment.
-
----
-
 ## Authors
+
 - Group Members:
 - Kevant Patel
 - Aviral Hudda
@@ -108,4 +111,5 @@ imr-movies/
 ---
 
 ## License
+
 This project is for academic purposes only.
