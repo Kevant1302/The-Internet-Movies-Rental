@@ -4,11 +4,11 @@ export default function Navbar() {
   return (
     <nav
       style={{
-        padding: "0.8rem 2rem",
-        display: "flex",
-        justifyContent: "space-between",
-        backgroundColor: "#1E1E2F",
         alignItems: "center",
+        justifyContent: "space-between",
+        padding: "0.8rem 2rem",
+        backgroundColor: "#1E1E2F",
+        display: "flex",
         boxShadow: "0 2px 8px rgba(0,0,0,0.2)",
       }}
     >
