@@ -4,10 +4,10 @@ export default function Navbar() {
   return (
     <nav
       style={{
-        backgroundColor: "#1E1E2F",
         padding: "0.8rem 2rem",
         display: "flex",
         justifyContent: "space-between",
+        backgroundColor: "#1E1E2F",
         alignItems: "center",
         boxShadow: "0 2px 8px rgba(0,0,0,0.2)",
       }}
@@ -30,10 +30,10 @@ export default function Navbar() {
   );
 }
 const navLinkStyle = {
-  color: "#fff",
   textDecoration: "none",
-  marginLeft: "20px",
+  color: "#fff",
   fontSize: "1.1rem",
+  marginLeft: "20px",
   padding: "6px 10px",
   borderRadius: "5px",
   transition: "background 0.3s ease",
