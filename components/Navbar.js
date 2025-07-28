@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-
 export default function Navbar() {
   return (
     <nav
@@ -30,7 +29,6 @@ export default function Navbar() {
     </nav>
   );
 }
-
 const navLinkStyle = {
   color: "#fff",
   textDecoration: "none",
